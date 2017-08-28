@@ -2,6 +2,13 @@
 
     package="com.thingple.message">
 
+    <permission
+        android:name="com.thingple.message.permission.send"
+        android:protectionLevel="normal" />
+    <permission
+        android:name="com.thingple.message.permission.command"
+        android:protectionLevel="normal" />
+
     <uses-permission android:name="com.thingple.message.permission.send" />
     <uses-permission android:name="com.thingple.message.permission.command" />
 
