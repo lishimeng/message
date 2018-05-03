@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thingple.library.mqtt_message" >
+
+    <permission
+        android:name="com.thingple.message.permission.send"
+        android:protectionLevel="normal" />
+    <permission
+        android:name="com.thingple.message.permission.command"
+        android:protectionLevel="normal" />
+
+    <uses-permission android:name="com.thingple.message.permission.send" />
+    <uses-permission android:name="com.thingple.message.permission.command" />
+</manifest>
